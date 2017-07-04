@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PruebaRSS</string>
+
+    <string name="fail_load_data">Vuelve a intentarlo más tarde</string>
+
+    <string name="title_main_activity">Noticias</string>
+    <string name="title_detail_activity">Detalle</string>
+
+    <string name="detail_new_author">Autor</string>
+    <string name="detail_new_title">Título</string>
+    <string name="detail_new_date">Fecha</string>
+    <string name="detail_new_description">Noticia</string>
+    <string name="detail_new_button">Ver en el Navegador</string>
+
+    <string name="search_hint">Buscar título</string>
+
+    <string name="transition_string">transitionDetail</string>
+</resources>

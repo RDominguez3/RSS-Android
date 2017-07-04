@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/nsRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginText"
+            android:layout_marginTop="@dimen/marginTextDetail"
+            android:textSize="@dimen/font30"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iv_photo_detail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heigthImageDetail"
+            android:layout_margin="@dimen/marginImageDetail"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginText"
+                android:layout_marginTop="@dimen/marginTextDetail"
+                android:textSize="@dimen/font12"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginText"
+                android:layout_marginTop="@dimen/marginTextDetail"
+                android:textSize="@dimen/font12"
+                android:textStyle="italic"
+                android:layout_toRightOf="@+id/tvAuthor"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font16"
+            android:layout_marginLeft="@dimen/marginText"
+            android:layout_marginTop="@dimen/marginTextDetail"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBrowser"
+            android:text="@string/detail_new_button"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

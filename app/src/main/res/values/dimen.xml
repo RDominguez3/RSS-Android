@@ -1,0 +1,33 @@
+<resources>
+
+
+    <!-- Fonts size -->
+    <dimen name="font12">12sp</dimen>
+    <dimen name="font16">16sp</dimen>
+    <dimen name="font20">20sp</dimen>
+    <dimen name="font30">30sp</dimen>
+
+    <dimen name="heigthImageRvNew">150dp</dimen>
+    <dimen name="heigthImageDetail">300dp</dimen>
+
+    <dimen name="marginImage">20dp</dimen>
+    <dimen name="marginImageDetail">5dp</dimen>
+    <dimen name="marginTitleDetail">5dp</dimen>
+    <dimen name="marginText">15dp</dimen>
+    <dimen name="marginTextCardView">5dp</dimen>
+    <dimen name="marginFloattingButtonSearch">5dp</dimen>
+    <dimen name="marginTextDetail">10dp</dimen>
+    <dimen name="sizePhotoRV">75dp</dimen>
+
+    <dimen name="sizeLoading">100dp</dimen>
+
+    <dimen name="cardViewCornerRadius">10dp</dimen>
+    <dimen name="cardViewElevation">10dp</dimen>
+
+
+
+
+
+
+
+</resources>
